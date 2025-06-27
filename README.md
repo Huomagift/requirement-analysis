@@ -102,3 +102,25 @@ Use Case Diagrams are visual tools used in software development to depict how us
 * Easy understanding of system flow
 * Organizes and communicates functionalities clearly
 * Enhances stakeholder collaboration
+
+Below is the Use Case Diagram for the Booking System:
+![Use Case Diagram](./alx-booking-uc.png)
+
+## Acceptance Criteria
+
+### Importance in Requirement Analysis
+
+Acceptance Criteria are clearly defined, testable conditions that a feature must fulfill to be considered complete and acceptable by stakeholders. They play a crucial role in Requirement Analysis by translating business needs into specific expectations. This helps eliminate ambiguity, ensures mutual understanding between stakeholders and developers, and forms the basis for user acceptance testing. Well-defined acceptance criteria contribute to higher product quality, reduce misunderstandings, and streamline the validation process.
+
+### Example: Checkout Feature in a Booking Management System
+
+**Feature:** Checkout Process
+
+**Acceptance Criteria:**
+- The user can view a summary of selected bookings, including property details, dates, and total cost.
+- The system prompts the user to provide or confirm personal and payment information.
+- Upon successful transaction, the system displays a confirmation message and sends a confirmation email within 2 minutes.
+- All required fields (e.g., name, card number, expiry date, CVV) must be validated before proceeding.
+- If the payment fails, the system must display an error message and allow the user to retry or choose a different payment method.
+
+These criteria help ensure the checkout process is functional, user-friendly, and meets both performance and reliability standards.
